@@ -1,0 +1,19 @@
+{
+  "name": "webmonitor",
+  "version": "1.0.0",
+  "description": "This CLI tool can be used to monitor in real time the availability and the performance of some websites.",
+  "main": "analysis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "None"
+  },
+  "licence":"None",
+  "author": "Benjamin Terris",
+  "dependencies": {
+    "console.table": "^0.9.1",
+    "request": "^2.83.0"
+  }
+}
