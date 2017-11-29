@@ -2,6 +2,10 @@
 
 This CLI tool can be used to monitor in real time the availability and the performance of some websites.
 
+<div align="center">
+<img src="appScreen.png" alt="screen app" style="width: 600px;">
+</div>
+
 ## Features
 
 - Monitor any number of websites
@@ -25,9 +29,3 @@ node run.js
 
 You can tune the settings as you like : you just have to edit the file `config.js` and register the host you want to monitor, as well as their check interval.
 
-## Running the test
-
-I implemented a test case to check the alert logging logic. You can run it with :
-```bash
-node test.js
-```
